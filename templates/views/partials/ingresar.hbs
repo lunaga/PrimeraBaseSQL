@@ -1,0 +1,23 @@
+        <div class="flex w-full text-center">
+            <button id="ingresar" class="bg-zinc-700 py-1 w-full rounded-tl font-bold">Ingresar un producto</button>
+            <button id="modificar" class="bg-zinc-500 py-1 w-full rounded-tr text-black font-bold">Modificar un producto</button>
+        </div>
+        <form id="productForm" class="flex flex-col m-2 px-4 pt-4 gap-2" action="/api/productos" method="post">
+            <input type="text" name="title" placeholder="Nombre del producto"
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm text-black shadow-sm placeholder-slate-400
+                focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+                invalid:border-zinc-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500" required>
+            <input type="number" placeholder="Precio" name="price"
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm text-black shadow-sm placeholder-slate-400
+                focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500
+                invalid:border-zinc-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500" required>
+            <input type="url" placeholder="Link de miniatura (opcional)" name="thumbail"
+                class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm text-black shadow-sm placeholder-slate-400
+                focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500
+                disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                invalid:border-zinc-500 invalid:text-red-600
+                focus:invalid:border-red-500 focus:invalid:ring-red-500">
+            <button type="submit" class="w-fit px-4 py-1 m-3 self-center bg-indigo-500 hover:bg-indigo-400 transition rounded">Agregar</button>
+        </form>

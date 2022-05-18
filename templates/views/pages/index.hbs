@@ -1,0 +1,24 @@
+<div class="text-8xl text-center m-16" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">GUITAR MASTER</div>
+
+<div class="flex flex-col mx-auto my-8 pb-12 items-center rounded bg-zinc-800 w-3/4 self-center">
+    <h2 class="text-3xl p-8">INICIO</h2>
+    <div class="self-center w-4/5 bg-zinc-700 rounded">
+
+{{#if option}}
+{{>ingresar}}
+{{else}}
+{{>modificar}}
+{{/if}}
+
+    </div>
+</div>
+<script src="./js/form-client.js" type="module"></script>
+{{!-- <iframe src="./api/productos" class="w-full h-fit" /> --}}
+{{!-- Productos --}}
+<div class="flex flex-col self-center items-center">
+{{>productos}}
+</div>
+{{!-- Chat --}}
+<div class="flex flex-col self-center items-center">
+{{>chat}}
+</div>

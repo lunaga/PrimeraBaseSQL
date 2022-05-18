@@ -1,0 +1,20 @@
+<h1 class="text-center m-3 font-bold text-4xl">Productos</h1>
+<div class="flex flex-col w-3/4 my-8 bg-zinc-800 rounded" style="place-items: center">
+    <div class="flex w-full py-2 px-4 text-center font-bold">
+        <div class="w-8 mr-2">Id</div>
+        <div class="w-3/4 text-left">Producto</div>
+        <div class="w-20">Precio</div>
+        <div class="w-48">Imagen</div>
+    </div>
+    <div id="product-list" class="w-full flex flex-col items-center px-2">
+{{#each result}}
+        <div class=" flex w-full h-24 m-1 p-2 bg-zinc-700 rounded" style="place-items: center">
+            <div class="w-8 mr-2 text-center font-bold">{{id}}</div>
+            <div class="w-3/4">{{title}}</div>
+            <div class="w-20 text-center">${{price}}</div>
+            <div class="w-48 flex justify-center bg-black"><img alt="image" class="h-20" style="max-width: 13em; object-fit: contain" onerror="this.src='https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651180136830.jpg'" src={{thumbail}}></div>
+        </div>
+{{/each}}
+    </div>
+</div>
+<script src="/js/products-client.js" type="module"></script>

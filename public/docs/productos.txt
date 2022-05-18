@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Stratocaster Fender",
+    "price": 122000,
+    "thumbail": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002761144.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Les Paul Gibson",
+    "price": 255000,
+    "thumbail": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002624921.jpg"
+  },
+  {
+    "id": 3,
+    "title": "SG Epiphone",
+    "price": 190000,
+    "thumbail": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651097743698.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Casino 1968 Epiphone",
+    "price": 299500,
+    "thumbail": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002449775.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Telecaster Fender",
+    "price": 95000,
+    "thumbail": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651006866808.jpg"
+  },
+  {
+    "title": "sad",
+    "price": 123,
+    "thumbail": "",
+    "id": 6
+  }
+]
